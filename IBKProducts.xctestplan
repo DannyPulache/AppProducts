@@ -1,0 +1,28 @@
+{
+  "configurations" : [
+    {
+      "id" : "8A17886F-BC67-4C7E-9D6A-B812A2260108",
+      "name" : "Configuración predeterminada",
+      "options" : {
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:IBKProducts.xcodeproj",
+      "identifier" : "184F084230842201000E08C7",
+      "name" : "IBKProducts"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : false,
+      "target" : {
+        "containerPath" : "container:IBKProducts.xcodeproj",
+        "identifier" : "184F085830842202000E08C7",
+        "name" : "IBKProductsTests"
+      }
+    }
+  ],
+  "version" : 1
+}

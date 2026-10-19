@@ -1,0 +1,16 @@
+PODS:
+  - IBKUIComponents (1.0.0)
+
+DEPENDENCIES:
+  - IBKUIComponents (from `./IBKUIComponents`)
+
+EXTERNAL SOURCES:
+  IBKUIComponents:
+    :path: "./IBKUIComponents"
+
+SPEC CHECKSUMS:
+  IBKUIComponents: cb2dede1058a41b53f1071af7941572797337da7
+
+PODFILE CHECKSUM: 4b0fe53189f81ca81465cd4e755c17aefbb6c05c
+
+COCOAPODS: 1.16.2

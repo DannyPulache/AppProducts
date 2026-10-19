@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		7DB9332A8BBEB6DDE6598BA5 /* Pods_IBKProducts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1F267E938B3E35304333E81 /* Pods_IBKProducts.framework */; };
+		F90CC332A192A9055B9082C3 /* Pods_IBKProductsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5751E545461040FAB732FEF /* Pods_IBKProductsTests.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		184F085A30842202000E08C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +32,13 @@
 		184F084330842201000E08C7 /* IBKProducts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IBKProducts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		184F085930842202000E08C7 /* IBKProductsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IBKProductsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		184F086330842202000E08C7 /* IBKProductsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IBKProductsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41724355F82538105BA8444E /* Pods-IBKProductsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IBKProductsTests.release.xcconfig"; path = "Target Support Files/Pods-IBKProductsTests/Pods-IBKProductsTests.release.xcconfig"; sourceTree = "<group>"; };
+		6C78099DA8D354DDCED882B4 /* Pods-IBKProducts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IBKProducts.release.xcconfig"; path = "Target Support Files/Pods-IBKProducts/Pods-IBKProducts.release.xcconfig"; sourceTree = "<group>"; };
+		A2E7C4D1309B440100C0D3E1 /* IBKProducts.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = IBKProducts.xctestplan; sourceTree = "<group>"; };
+		BDF9F804243CF0FA62605536 /* Pods-IBKProducts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IBKProducts.debug.xcconfig"; path = "Target Support Files/Pods-IBKProducts/Pods-IBKProducts.debug.xcconfig"; sourceTree = "<group>"; };
+		C639CF963FF2405138DBEEEA /* Pods-IBKProductsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IBKProductsTests.debug.xcconfig"; path = "Target Support Files/Pods-IBKProductsTests/Pods-IBKProductsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D1F267E938B3E35304333E81 /* Pods_IBKProducts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IBKProducts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5751E545461040FAB732FEF /* Pods_IBKProductsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IBKProductsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -53,11 +65,6 @@
 			path = IBKProductsTests;
 			sourceTree = "<group>";
 		};
-		184F086630842202000E08C7 /* IBKProductsUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = IBKProductsUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DB9332A8BBEB6DDE6598BA5 /* Pods_IBKProducts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F90CC332A192A9055B9082C3 /* Pods_IBKProductsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,10 +97,12 @@
 		184F083A30842201000E08C7 = {
 			isa = PBXGroup;
 			children = (
+				A2E7C4D1309B440100C0D3E1 /* IBKProducts.xctestplan */,
 				184F084530842201000E08C7 /* IBKProducts */,
 				184F085C30842202000E08C7 /* IBKProductsTests */,
-				184F086630842202000E08C7 /* IBKProductsUITests */,
 				184F084430842201000E08C7 /* Products */,
+				27F0AAE28491F04BAE62DC09 /* Pods */,
+				B7A9C64B8ED8F067034D549A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +116,26 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		27F0AAE28491F04BAE62DC09 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BDF9F804243CF0FA62605536 /* Pods-IBKProducts.debug.xcconfig */,
+				6C78099DA8D354DDCED882B4 /* Pods-IBKProducts.release.xcconfig */,
+				C639CF963FF2405138DBEEEA /* Pods-IBKProductsTests.debug.xcconfig */,
+				41724355F82538105BA8444E /* Pods-IBKProductsTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B7A9C64B8ED8F067034D549A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1F267E938B3E35304333E81 /* Pods_IBKProducts.framework */,
+				E5751E545461040FAB732FEF /* Pods_IBKProductsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -112,9 +143,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 184F086C30842202000E08C7 /* Build configuration list for PBXNativeTarget "IBKProducts" */;
 			buildPhases = (
+				F8A476834654ABE826D37BDD /* [CP] Check Pods Manifest.lock */,
 				184F083F30842201000E08C7 /* Sources */,
 				184F084030842201000E08C7 /* Frameworks */,
 				184F084130842201000E08C7 /* Resources */,
+				A2B63A32256F05FA085CB6C5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,8 +157,6 @@
 				184F084530842201000E08C7 /* IBKProducts */,
 			);
 			name = IBKProducts;
-			packageProductDependencies = (
-			);
 			productName = IBKProducts;
 			productReference = 184F084330842201000E08C7 /* IBKProducts.app */;
 			productType = "com.apple.product-type.application";
@@ -134,6 +165,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 184F087130842202000E08C7 /* Build configuration list for PBXNativeTarget "IBKProductsTests" */;
 			buildPhases = (
+				589DF835AF08E28CDAD5C158 /* [CP] Check Pods Manifest.lock */,
 				184F085530842202000E08C7 /* Sources */,
 				184F085630842202000E08C7 /* Frameworks */,
 				184F085730842202000E08C7 /* Resources */,
@@ -147,8 +179,6 @@
 				184F085C30842202000E08C7 /* IBKProductsTests */,
 			);
 			name = IBKProductsTests;
-			packageProductDependencies = (
-			);
 			productName = IBKProductsTests;
 			productReference = 184F085930842202000E08C7 /* IBKProductsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -166,12 +196,7 @@
 			dependencies = (
 				184F086530842202000E08C7 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				184F086630842202000E08C7 /* IBKProductsUITests */,
-			);
 			name = IBKProductsUITests;
-			packageProductDependencies = (
-			);
 			productName = IBKProductsUITests;
 			productReference = 184F086330842202000E08C7 /* IBKProductsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -200,9 +225,10 @@
 				};
 			};
 			buildConfigurationList = 184F083E30842201000E08C7 /* Build configuration list for PBXProject "IBKProducts" */;
-			developmentRegion = en;
+			developmentRegion = es;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				es,
 				en,
 				Base,
 			);
@@ -244,6 +270,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		589DF835AF08E28CDAD5C158 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IBKProductsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2B63A32256F05FA085CB6C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IBKProducts/Pods-IBKProducts-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IBKProducts/Pods-IBKProducts-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IBKProducts/Pods-IBKProducts-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8A476834654ABE826D37BDD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IBKProducts-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		184F083F30842201000E08C7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -284,6 +378,7 @@
 /* Begin XCBuildConfiguration section */
 		184F086D30842202000E08C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDF9F804243CF0FA62605536 /* Pods-IBKProducts.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -294,7 +389,6 @@
 				INFOPLIST_FILE = IBKProducts/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -302,20 +396,21 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = danypulache.IBKProducts;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dannypulache.IBKProducts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 5.9;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		184F086E30842202000E08C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C78099DA8D354DDCED882B4 /* Pods-IBKProducts.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -326,7 +421,6 @@
 				INFOPLIST_FILE = IBKProducts/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -334,14 +428,14 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = danypulache.IBKProducts;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dannypulache.IBKProducts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 5.9;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -384,7 +478,7 @@
 				DEVELOPMENT_TEAM = 833PKX8Z6V;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -399,7 +493,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -448,7 +542,7 @@
 				DEVELOPMENT_TEAM = 833PKX8Z6V;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -457,7 +551,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -469,21 +563,22 @@
 		};
 		184F087230842202000E08C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C639CF963FF2405138DBEEEA /* Pods-IBKProductsTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 833PKX8Z6V;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = danypulache.IBKProductsTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dannypulache.IBKProductsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 5.9;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IBKProducts.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IBKProducts";
 			};
@@ -491,21 +586,22 @@
 		};
 		184F087330842202000E08C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41724355F82538105BA8444E /* Pods-IBKProductsTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 833PKX8Z6V;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = danypulache.IBKProductsTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dannypulache.IBKProductsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 5.9;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IBKProducts.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IBKProducts";
 			};

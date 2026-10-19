@@ -1,0 +1,10 @@
+# Xcode genera estos datos para cada usuario y máquina.
+DerivedData/
+*.xcuserstate
+xcuserdata/
+
+# CocoaPods se reconstruye con `pod install` desde Podfile.lock.
+Pods/
+
+# Archivos temporales de macOS.
+.DS_Store
