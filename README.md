@@ -1,6 +1,6 @@
-# IBKProducts
+# AppProducts
 
-Aplicación iOS desarrollada con UIKit para consultar y mostrar productos del endpoint de Platzi.
+Aplicación iOS desarrollada con UIKit, arquitectura MVVM y Coordinator para consultar y mostrar productos del endpoint de Platzi.
 
 ## Requisitos de desarrollo
 
